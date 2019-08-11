@@ -1,16 +1,15 @@
 package session4;
 
-public class methodOverload {
+public class MethodOverload {
 	int length;
 	int width;
 	
-	public methodOverload(int length,int width) {
+	public MethodOverload(int length,int width) {
 		this.length=length;
 		this.width=width;
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		methodOverload sq=new methodOverload(10,5);
 		System.out.println("Volume is "+sq.areaVol(20));
 	}
